@@ -1,4 +1,4 @@
-# AppDevInternship2025
+#AppDevInternship2025
 A public record of my Android app development internship, progress, and portfolio.
 
 # AppDevInternship_2025
@@ -23,7 +23,7 @@ This repo documents my journey through a hands-on internship focused on Android 
 ---
 
 # HelloWorldComposeApp  
-🔗 GitHub Repo:
+🔗 GitHub Repo:https://github.com/Kittu268/AppDevInternship2025.git
 ## 🚀 Overview
 This is my first interactive Android app built using Jetpack Compose. It features a clean greeting screen where users enter their name and receive a personalized message.
 
