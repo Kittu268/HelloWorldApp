@@ -1,76 +1,38 @@
-# AppDevInternship_2025
+# AppDevInternship2025 - Weekly Progress (Weeks 1-5)
 
-## 🌱 Internship Overview  
-This repository documents my journey through a hands-on Android app development internship, focused on building interactive apps using **Java** and **Jetpack Compose**. Each milestone reflects real-world features, public documentation, and recruiter-ready deliverables.
+This document summarizes the progress made during the first five weeks of the Android App Development Internship, focusing on the development of an applicationフロー from user login to a content download feature.
 
----
+## Week 1: Project Setup & Login Screen UI
+*   Successfully set up the Android Studio development environment.
+*   Initialized the Android project and became familiar with its structure.
+*   Learned the fundamentals of Kotlin for Android development.
+*   Designed and implemented the basic UI layout for the application's **Login Screen** (e.g., using XML with input fields for username/password and a login button).
 
-## 🎯 Goals  
-- ✅ Complete onboarding & Android setup  
-- ✅ Build UI/UX components with layouts and navigation  
-- ✅ Integrate backend features and analytics  
-- ✅ Add advanced functionality (charts, file export, sharing)  
-- ✅ Deploy and share final projects  
-- ✅ Maintain public documentation and GitHub posts  
+## Week 2: Login Functionality & Basic Navigation
+*   Implemented the core logic for user authentication on the Login Screen.
+    *   (e.g., Handled button clicks, retrieved input, basic validation).
+*   Worked on navigating the user to a main part of the application upon successful login.
+*   Began planning the user flow towards a "download" feature.
 
-# HelloWorldComposeApp  
-🔗 GitHub Repo: [AppDevInternship2025](https://github.com/Kittu268/AppDevInternship2025.git)
+## Week 3: Developing Core App Screens & UI for Download Area
+*   Built out the primary screens or activities that users would access after logging in.
+*   Designed the UI for the section of the app where users would initiate a **Download Screen** or download action.
+    *   (e.g., A list of items to download, a dedicated download page).
+*   Implemented navigation to this download-related screen or section.
 
-## 🚀 Overview  
-My first interactive Android app built with Jetpack Compose. It features a clean greeting screen, dashboard, and report export functionality—designed to simulate real-world student analytics.
+## Week 4: Implementing Download Feature Logic
+*   Focused on the backend logic for the download functionality.
+    *   (e.g., Handling button clicks to start a download, managing file URLs or sources).
+*   Considered and possibly implemented necessary permissions (e.g., for storage access if saving files).
+*   Worked on providing user feedback for the download process (e.g., progress indicators, completion messages).
+*   Initial testing of the download screen and its functionality.
 
----
-
-## ✅ Internship Milestone Summary
-
-### 📍 Task-1: Greeting Screen  
-- Built `GreetingScreen()` using Jetpack Compose  
-- Integrated `TextField`, `Button`, and dynamic greeting logic  
-- Applied custom theming and navigation setup  
-- Marked the starting point of my Compose journey  
-
-### 📍 Task-2: Dashboard Screen  
-- Developed `DashboardScreen()` with stat cards and recent activity  
-- Used `LazyColumn`, `Card`, and layout components for clean UI  
-- Logged internal test report to `test-report-dashboard.txt` for traceability  
-- Added navigation from greeting to dashboard  
-
-### 📍 Task-3: Report Export & Sharing  
-- Implemented report generation, file saving, and sharing via `FileProvider`  
-- Added buttons to save, open, and share report from within the app  
-- Used external storage and intent-based sharing  
-- Embedded all logic in `MainActivity.kt` for simplicity and clarity  
+## Week 5: Git Management, Code Refinement & Review
+*   Deepened understanding of Git version control, focusing on branching strategies (transitioning from `master` to `main`).
+*   Successfully performed merging operations to consolidate development history into the `main` branch.
+*   Organized the GitHub repository by standardizing on `main` and removing the `master` branch.
+*   Reviewed and refined the code for the login-to-download feature flow.
+*   Ensured project history was clearly documented and pushed to GitHub.
 
 ---
-
-## 📹 Demo Video  
-Watch the greeting screen in action:  
-🎥 [LinkedIn Demo](https://www.linkedin.com/posts/kittu-mahesh-28a55937a_androiddev-jetpackcompose-internshipmilestone-activity-7363295835062767618-QDvc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF2yr0oB5jNolgwxdvzIAy0nauXKaTBvyCY)
-
----
-
-## 📱 Screenshot  
-<img width="1080" height="1920" alt="Screenshot_20250813_115102" src="https://github.com/user-attachments/assets/4393e07b-43f4-4e76-ac3b-6fbdae82b086" />
-
----
-
-## 🧠 What I Learned  
-- Structuring multi-screen Android apps using Jetpack Compose  
-- Navigation with `NavHost` and route-based composables  
-- File handling in Android: internal vs external storage  
-- Sharing files securely using `FileProvider`  
-- Writing traceable, recruiter-friendly code with `testTag` and documentation  
-
----
-
-## 🔮 Next Steps  
-- Add PDF export functionality to the report screen  
-- Integrate UI testing and automation  
-- Polish README with final demo links and screenshots  
-- Share final milestone post on LinkedIn with full walkthrough  
-
----
-
-## 🔗 Live Progress  
-Follow my internship journey and milestone posts:  
-📍 [LinkedIn Profile](https://www.linkedin.com/in/kittu-mahesh-28a55937a)
+This README reflects the state of the project and key learnings at the end of Week 5.
